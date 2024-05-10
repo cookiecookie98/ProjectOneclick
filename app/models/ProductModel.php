@@ -15,7 +15,7 @@ class ProductModel{
         return $result->fetchAll();
     }
 
-    public static function getProductById(){
+    public static function getProductById($id){
         $sql = "SELECT * FROM product WHERE id = $id";
         $result = self::$conn->prepare($sql);
         $result->execute();
