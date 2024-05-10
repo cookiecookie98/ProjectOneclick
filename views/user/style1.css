@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container .uper-left {
+  background-color: rebeccapurple;
+}
+.profile {
+  height: 200px;
+  width: 200px;
+  border: 1px dotted red;
+  overflow: hidden; /* Đảm bảo hình ảnh bên trong không tràn ra ngoài .profile */
+  border-radius: 50%; /* Làm cho khung hình tròn */
+}
+.profile .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Giữ tỷ lệ khung của hình ảnh */
+}
+.Red {
+  position: relative;
+  border-left: 2px solid#FF0000; /* Đường viền bên trái với màu sắc được chỉ định */
+  /* 
+    margin: 10px; /* Tạo khoản trắng giữa các phần tử 
+ */
+  padding-left: 10px; /* Khoảng cách giữa chữ và "border" */
+  margin-top: 10px;
+  font-weight: 700;
+}
+.edit {
+  margin-top: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 285px;
+}
+.Following {
+  position: relative;
+  border-left: 2px solid#FF0000; /* Đường viền bên trái với màu sắc được chỉ định */
+  /* 
+    margin: 10px; /* Tạo khoản trắng giữa các phần tử 
+ */
+  padding-left: 10px; /* Khoảng cách giữa chữ và "border" */
+  margin-top: 10px;
+  font-weight: 700;
+}
+.fullham {
+  margin-top: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.information {
+}
+
+.information .main-title {
+  height: 30px;
+  position: relative;
+}
+
+.information .main-title span {
+  position: absolute;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  background-color: red;
+  left: 0;
+}
+.information .information_1 {
+  border: 1px solid #ddd; /* Độ dày và màu sắc đường viền */
+  height: 100px;
+  width: 350px;
+  padding: 10px; /* Khoảng trắng bên trong khung */
+  margin: 2px; /* Khoảng trắng ngoài khung */
+  border-radius: 5px; /* Bo tròn góc khung */
+  box-sizing: border-box; /* Giữ nguyên kích thước của khung */
+  margin-top: 10px;
+}
+.information h4 {
+  margin: 0; /* Đặt margin thành 0 để loại bỏ khoảng trắng mặc định */
+  padding: 1px; /* Khoảng trắng bên trong h4 */
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Function {
+  position: absolute;
+  margin-top: 20px;
+  background-color: #f3f0f0;
+  margin: 10px;
+}
+.Function .Content {
+  border: 1px solid #ffffff;
+  width: 210px;
+  height: 200px;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+}
+.Function .Content .List {
+  padding: 8px 15px;
+  list-style: none;
+}
+.Function .Content .List li a {
+  text-decoration: none; /* Loại bỏ đường chân trên liên kết */
+  color: black;
+}
+
+.Function .Content .List li {
+  padding: 8px 0; /* Điều chỉnh khoảng cách giữa các mục */
+  cursor: pointer;
+}
+.Function .Content .List li:hover {
+  background-color: #ffffff; /* Một màu nền khi chuột di qua */
+}
+
+.Tracking_product {
+}
+
+.TableContainer {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Table th,
+.Table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.Table th {
+  background-color: #f2f2f2;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: 1fr 3fr;
+  grid-template-areas:
+    "aa bb"
+    "cc dd";
+}
+.Container .upper-right {
+  grid-area: bb;
+}
+.Container .down-left {
+  grid-area: cc;
+}
+.Container .down-right {
+  grid-area: dd;
+}
+.Container .uper-left {
+  grid-area: aa;
+}
