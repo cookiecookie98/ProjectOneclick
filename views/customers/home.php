@@ -135,16 +135,7 @@
         </div>
     </div>
 </div>
-<!-- Offcanvas Menu end -->
 
-<!-- slider area start -->
-<!-- <div class="sloder-area">
-			<div id="slider-active">
-				<img src="public/assets/images/slider/card 1.png" alt="" title="#active1"/>
-				<img src="public/assets/images/slider/card 2.png" alt="" title="#active2"/>
-			</div>
-			 -->
-<!-- slider area end -->
 <div id="active1" class="nivo-html-caption">
     <div class="container">
         <div class="row">
@@ -172,7 +163,6 @@
     <div class="slider-progress"></div>
 </div>
 
-</div>
 <!-- product area start -->
 <div class="product-area ptb-35">
     <div class="banner">
