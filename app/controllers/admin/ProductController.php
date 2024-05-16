@@ -16,7 +16,6 @@ class ProductController
     }
 
     public static function addProduct($products){
-        var_dump($products);
         self::$products::addProduct($products);
     }
 
